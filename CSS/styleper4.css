@@ -47,6 +47,7 @@ body {
 	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	text-shadow: -1px 3px 1px rgb(252, 151, 255);
 	cursor: pointer;
+	/* width: min-content; */
 	/* width: 30%; */
 	/* background-color: white; */
 }
@@ -175,6 +176,7 @@ body {
 	.nav .brand a {
 		position: relative;
 		left: 40px;
+		text-shadow: 1px 2px 5px rgb(252, 151, 255);
 	}
 
 	.nav ul li:last-child {
@@ -216,8 +218,14 @@ body {
 	}
 
 	.nav .brand a {
-		font-size: 20px;
+		font-size: 25px;
 		cursor: pointer;
+		left: 5px;
+		background-color: aqua;
+		width: max-content;
+		padding: 2px 5px;
+		border-radius: 5px;
+		box-shadow: 0 0 5px 3px rgb(137, 247, 188);
 	}
 
 	.nav .hamburger {
